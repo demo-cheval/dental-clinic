@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>前田歯科医院 | 準備中ページです</title>
+  <meta name="description" content="ただいま、より良いWebサイトを目指し、コンテンツを準備中です。ご不便をおかけしますが、最新情報は随時更新してまいりますので、今しばらくお待ちください。">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/slicknav.css">
+  <link rel="stylesheet" href="css/effct.css">
+</head>
+
+<body class="index">
+  <div class="wrapper">
+
+    <header class="header">
+      <div><a href="index.html"><img src="./img/logo.svg" width="281" height="45" alt="前田歯科医院"></a></div>
+      <div class="nav-wrapper">
+
+        <nav class="gloval">
+          <ul class="menu">
+            <li class="nav-item"><a href="about_our_dental_clinic.html">当院について</a></li>
+            <li class="nav-item"><a href="dummy.html">診療の流れ</a></li>
+            <li class="nav-item"><a href="dummy.html">診療メニュー</a></li>
+            <li class="nav-item"><a href="./doctor_staff.html">院長・スタッフ</a></li>
+            <li class="nav-item"><a href="dummy.html">アクセス</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="burger-btn">
+
+        <!-- ハンバーガーボタン -->
+
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </button>
+
+    </header>
+    <div class="contact_link_btn">
+      <ul>
+        <li><a href="#x">電話予約</a></li>
+        <li><a href="#x"><span>WEB予約</span></a></li>
+      </ul>
+    </div>
+
+    <section>
+      <p>ただいまサイト制作中です。</p>
+    </section>
+    
+  </div>
+  <footer>
+    <a href=""><img src="./img/logo.svg" width="281" height="45" alt="前田歯科医院"></a>
+    <p>栃木県&ensp;宇都宮市&ensp;〇〇町〇〇&ensp;000-00</p>
+    <nav class="footer_nav">
+      <div>
+        <ul>
+          <li><a href="#x">当院について</a></li>
+          <li><a href="#x">診療の流れ</a></li>
+          <li><a href="#x">診療メニュー</a></li>
+          <li><a href="#x">院長・スタッフ</a></li>
+          <li><a href="#x">アクセス</a></li>
+        </ul>
+      </div>
+      <div class="footer_mtm">
+        <p>診療メニュー</p>
+        <ul>
+          <li><a href="dummy.html">虫歯治療</a></li>
+          <li><a href="dummy.html">根幹治療</a></li>
+          <li><a href="dummy.html">小児歯科</a></li>
+          <li><a href="dummy.html">予防歯科</a></li>
+          <li><a href="dummy.html">インプラント</a></li>
+          <li><a href="dummy.html">入歯治療</a></li>
+        </ul>
+        <ul>
+          <li><a href="dummy.html">審美歯科</a></li>
+          <li><a href="dummy.html">ホワイトニング</a></li>
+          <li><a href="dummy.html">歯列矯正</a></li>
+          <li><a href="dummy.html">歯周病治療</a></li>
+          <li><a href="dummy.html">訪問診療</a></li>
+          <li><a href="dummy.html">口臭外来</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <small>&copy;前田歯科医院</small>
+  </footer>
+
+
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script>
+    $('.burger-btn').on('click', function () {//.btn_triggerをクリックすると
+      $('.burger-btn').toggleClass('close');//.btn_triggerにcloseクラスを付与(ボタンのアニメーション)
+      $('.nav-wrapper').toggleClass('fade');//.nav-wrapperに
+      $('body').toggleClass('noscroll');//bodyにnoscrollクラスを付与(スクロールを固定)
+    });
+  </script>
+
+
+
+</body>
+
+</html>
